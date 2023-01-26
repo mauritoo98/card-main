@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | Product preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Preview
-
-  Gabrielle Essence Eau De Parfum
-
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main class="main">
+    <div class="main-contenedor">
+      <div class="imagen"></div>
+      <div class="contenedor-detalles">
+        <div class="detalles">
+          <p class="parrafo">P E R F U M E</p>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p class="parrafo"> A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.</p>
+        </div>
+        <div class="price">
+          <p class="price-descuento">$149.99</p>
+          <p class="price-sin-descuento">$169.99</p>
+        </div>
+        <form class="form-car">
+          <input class="boton" type="button" value="🛒 Add to card">
+        </form>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Mauro Andrade</a>.
+    </div>
+  </main>
 </body>
+
 </html>
