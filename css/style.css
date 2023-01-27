@@ -40,15 +40,15 @@
     .detalles h1 {
         color: black;
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .parrafo {
         color: rgb(101, 102, 102);
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        line-height: 1.4rem;
+        line-height: 1.5rem;
     }
 
     .price {
@@ -85,5 +85,189 @@
         height: 70%;
         border: none;
         border-radius: 5px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px) {
+    .main {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+    }
+
+    .main-contenedor {
+        height: 90%;
+        width: 80%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+
+    .imagen {
+        width: 100%;
+        height: 35%;
+        background-image: url("../images/image-product-mobile.jpg");
+        background-size: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .contenedor-detalles {
+        margin: auto;
+        display: block;
+        width: 90%;
+        height: 65%;
+    }
+
+    .detalles {
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .detalles h1 {
+        color: black;
+        font-weight: bold;
+        font-size: 2.6rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .parrafo {
+        color: rgb(101, 102, 102);
+        font-size: 1.5rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 1.5rem;
+    }
+
+    .price {
+        height: 20%;
+        display: flex;
+        align-items: center;
+    }
+
+    .price-descuento {
+        color: rgb(74, 141, 102);
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .price-sin-descuento {
+        text-decoration: line-through;
+        color: rgb(101, 102, 102);
+        font-size: 1.3rem;
+        align-items: center;
+    }
+
+    .form-car {
+        height: 20%;
+        display: flex;
+        align-items: center;
+    }
+
+    .boton {
+        background-color: rgb(74, 141, 102);
+        color: white;
+        font-size: 1.5rem;
+        width: 100%;
+        height: 70%;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+@media(min-width: 768px) {
+    .main {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: antiquewhite;
+    }
+
+    .main-contenedor {
+        display: flex;
+        background-color: white;
+        height: 70%;
+        width: 70%;
+        border-radius: 10px;
+    }
+
+    .imagen {
+        background-image: url("../images/image-product-desktop.jpg");
+        height: 100%;
+        width: 50%;
+        background-size: cover;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .contenedor-detalles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+        height: 100%;
+    }
+
+    .detalles {
+        width: 80%;
+        margin: auto;
+    }
+
+    .detalles h1 {
+        font-weight: bold;
+        font-size: 2.3rem;
+    }
+
+    .parrafo {
+        color: rgb(101, 102, 102);
+        padding: 10px 0px;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+    .price {
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+
+    .price-descuento {
+        color: rgb(74, 141, 102);
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2.5rem;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .price-sin-descuento {
+        text-decoration: line-through;
+        color: rgb(101, 102, 102);
+        font-size: 1.3rem;
+        align-items: center;
+    }
+
+    .form-car {
+        height: 20%;
+        display: flex;
+        align-items: center;
+    }
+
+    .boton {
+        margin: auto;
+        background-color: rgb(74, 141, 102);
+        color: white;
+        font-size: 1.5rem;
+        width: 80%;
+        height: 60%;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .boton:hover {
+        background-color: rgb(22, 77, 45);
     }
 }
