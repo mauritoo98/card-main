@@ -40,15 +40,15 @@
     .detalles h1 {
         color: black;
         font-weight: bold;
-        font-size: 2.2rem;
+        font-size: 1.7rem;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .parrafo {
         color: rgb(101, 102, 102);
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        line-height: 1.5rem;
+        line-height: 1.4rem;
     }
 
     .price {
@@ -61,7 +61,7 @@
         color: rgb(74, 141, 102);
         font-weight: bold;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .price-sin-descuento {
@@ -130,15 +130,15 @@
     .detalles h1 {
         color: black;
         font-weight: bold;
-        font-size: 2.6rem;
+        font-size: 2.3rem;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .parrafo {
         color: rgb(101, 102, 102);
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        line-height: 1.5rem;
+        line-height: 1rem;
     }
 
     .price {
@@ -151,13 +151,13 @@
         color: rgb(74, 141, 102);
         font-weight: bold;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .price-sin-descuento {
         text-decoration: line-through;
         color: rgb(101, 102, 102);
-        font-size: 1.3rem;
+        font-size: 1rem;
         align-items: center;
     }
 
@@ -219,14 +219,14 @@
 
     .detalles h1 {
         font-weight: bold;
-        font-size: 2.3rem;
+        font-size: 1.5rem;
     }
 
     .parrafo {
         color: rgb(101, 102, 102);
         padding: 10px 0px;
-        font-size: 1.3rem;
-        line-height: 1.8rem;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
     }
 
     .price {
@@ -239,7 +239,7 @@
         color: rgb(74, 141, 102);
         font-weight: bold;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin: 0px 20px 0px 0px;
     }
 
@@ -260,7 +260,7 @@
         margin: auto;
         background-color: rgb(74, 141, 102);
         color: white;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         width: 80%;
         height: 60%;
         border: none;
